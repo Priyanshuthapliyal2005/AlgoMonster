@@ -1,0 +1,56 @@
+{
+  "algorithms": [
+    {
+      "name": "Sorting",
+      "id": "sorting",
+      "algorithms": [
+        {
+          "id": "bubble-sort",
+          "name": "Bubble Sort"
+        },
+        {
+          "id": "insertion-sort",
+          "name": "Insertion Sort"
+        },
+        {
+          "id": "selection-sort",
+          "name": "Selection Sort"
+        },
+        {
+          "id": "merge-sort",
+          "name": "Merge Sort"
+        },
+        {
+          "id": "quick-sort",
+          "name": "Quick Sort"
+        },
+        {
+          "id": "heap-sort",
+          "name": "Heap Sort"
+        },
+        {
+          "id": "radix-sort",
+          "name": "Radix Sort"
+        }
+      ]
+    },
+    {
+      "name": "Searching",
+      "id": "searching",
+      "algorithms": [
+        {
+          "id": "linear-search",
+          "name": "Linear search"
+        },
+        {
+          "id": "binary-search",
+          "name": "Binary Search"
+        },
+        {
+          "id": "jump-search",
+          "name": "Jump Search"
+        }
+      ]
+    }
+  ]
+}
