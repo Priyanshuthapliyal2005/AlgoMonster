@@ -31,6 +31,10 @@
         {
           "id": "radix-sort",
           "name": "Radix Sort"
+        },
+        {
+          "id": "shell-sort",
+          "name": "Shell Sort"
         }
       ]
     },

@@ -358,3 +358,38 @@ async function CountingSort(exp) {
     });
   }
 }
+
+// Shell Sort
+export async function ShellSort() {
+  let array = store.getState().sorting.array.slice(); // Use slice() for consistency
+  let n = array.length;
+
+  for (let gap = Math.floor(n / 2); gap > 0; gap = Math.floor(gap / 2)) {
+    for (let i = gap; i < n; i++) {
+      let temp = array[i];
+      let j;
+
+      for (j = i; j >= gap && array[j - gap] > temp; j -= gap) {
+        if (!store.getState().sorting.running) return;
+        await MakeDelay(store.getState().sorting.speed);
+
+        array[j] = array[j - gap];
+
+        batch(() => {
+          store.dispatch(setCompElements([j, j - gap]));
+          store.dispatch(incrementComparisons());
+          store.dispatch(setArray([...array])); // Dispatch a new copy
+        });
+      }
+
+      array[j] = temp;
+
+      batch(() => {
+        store.dispatch(setSwapElements([i, j]));
+        store.dispatch(incrementSwaps());
+        store.dispatch(setArray([...array])); // Dispatch a new copy
+      });
+    }
+  }
+}
+

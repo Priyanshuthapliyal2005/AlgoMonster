@@ -20,7 +20,7 @@ const NavHeader = () => {
           </Link>
         </div>
         <div className="text-text-2 font-space text-xs text-center md:text-left">
-          Algorithm Visualizer
+          AlgoMonster
         </div>
       </div>
     </div>

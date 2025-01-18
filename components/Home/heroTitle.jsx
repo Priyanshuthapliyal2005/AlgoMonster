@@ -16,7 +16,7 @@ export default function HeroTitle() {
           </Link>
         </div>
         <div className="text-[#b9b9b9] font-space text-[1rem] text-center md:text-left">
-          Algorithm Visualizer
+          AlgoMonster
         </div>
       </div>
     </div>

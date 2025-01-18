@@ -34,6 +34,9 @@ export default function StartButton() {
     if (algoId === "radix-sort") {
       await SortingAlgorithms.RadixSort();
     }
+    if(algoId === "shell-sort") {
+      await SortingAlgorithms.ShellSort();
+    }
     dispatch(setRunning(false));
     dispatch(setStatus("sorted"));
   };

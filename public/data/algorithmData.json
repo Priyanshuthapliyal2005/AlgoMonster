@@ -134,6 +134,23 @@
       "worst": "O(1)"
     }
   },
+  "ShellSort": {
+    "title": "Shell Sort",
+    "metaTitle": "Shell Sort | AlgoMonster",
+    "description": "Shell Sort is an in-place comparison sort. It can be seen as either a generalization of sorting by exchange (bubble sort) or sorting by insertion (insertion sort).",
+    "code": "void shellSort(int arr[], int n) {\n    for (int gap = n / 2; gap > 0; gap /= 2) {\n        for (int i = gap; i < n; i += 1) {\n            int temp = arr[i];\n            int j;            \n            for (j = i; j >= gap && arr[j - gap] > temp; j -= gap)\n                arr[j] = arr[j - gap];\n            arr[j] = temp;\n        }\n    }\n}",
+    "timeComplexity": {
+      "best": "O(n log(n))",
+      "average": "O(n^(3/2))",
+      "worst": "O(n^2)"
+    },
+    "spaceComplexity": {
+      "best": "O(1)",
+      "average": "O(1)",
+      "worst": "O(1)"
+    },
+    "stable": "NO"
+  },
   "BinarySearch": {
     "title": "Binary Search",
     "metaTitle": "Binary Search | AlgoMonster",

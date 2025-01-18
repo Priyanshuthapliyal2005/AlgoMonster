@@ -1,6 +1,6 @@
 # AlgoMonster
 
-AlgoMonster is an interactive algorithm visualizer designed to help users understand various algorithms through visual representations. The application allows users to visualize sorting and searching algorithms with real-time updates, making it easier to grasp complex concepts.
+AlgoMonster is an interactive AlgoMonster designed to help users understand various algorithms through visual representations. The application allows users to visualize sorting and searching algorithms with real-time updates, making it easier to grasp complex concepts.
 
 ## Features
 
@@ -55,7 +55,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Acknowledgements
 
-- Inspired by various algorithm visualizers available online.
+- Inspired by various AlgoMonsters available online.
 - Special thanks to the open-source community for their contributions.
 
 ## Author

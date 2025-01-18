@@ -26,15 +26,15 @@ export default function Home() {
     <div>
       <NextSeo
         title="Home | AlgoMonster"
-        description="A algorithm visualizer for understanding algorithms"
+        description="A AlgoMonster for understanding algorithms"
         canonical={`https://AlgoMonster.vercel.app/`}
         openGraph={{
           url: `https://AlgoMonster.vercel.app/`,
           title: "Home | AlgoMonster",
-          description: "A algorithm visualizer for understanding algorithms",
+          description: "A AlgoMonster for understanding algorithms",
           profile: {
-            firstName: "Sandeep",
-            lastName: "Swain",
+            firstName: "Priyanshu",
+            lastName: "Thapliyal",
           },
           images: [
             {
