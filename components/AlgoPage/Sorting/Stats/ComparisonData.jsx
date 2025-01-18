@@ -21,7 +21,7 @@ export default function ComparisonData() {
         <div className="text-green hidden xl:flex">
           Estimated{" "}
           <span className="text-blue" id="estimated-comparisons">
-            XXX
+            {comps === 0 ? "XXX" : comps}
           </span>
         </div>
       </div>

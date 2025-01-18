@@ -4,7 +4,7 @@ const initialState = {
   array: [],
   arrayCount: 0,
   target: 0,
-  barWidth: 20,
+  barWidth: 30,
   maxBarWidth: 30,
   speed: 100,
   maxSpeed: 400,

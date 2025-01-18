@@ -19,7 +19,7 @@ const SwapData = () => {
         <div className="text-green hidden xl:flex">
           Estimated{" "}
           <span className="text-blue" id="estimated-comparisons">
-            XXX
+            {swaps === 0 ? "XXX" :swaps}
           </span>
         </div>
       </div>
