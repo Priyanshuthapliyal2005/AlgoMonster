@@ -15,6 +15,11 @@ AlgoMonster is an interactive algorithm visualizer designed to help users unders
 - **Visualization**: Dynamic rendering with P5.js
 - **Code Highlighting**: Prism.js for syntax highlighting of algorithm code snippets
 
+## Architecture
+
+![image](https://github.com/user-attachments/assets/a72e29df-3eb1-4dad-a2d8-7127d9c6fb9b)
+
+
 ## Installation
 
 To run the project locally, follow these steps:
