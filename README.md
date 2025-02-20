@@ -17,8 +17,7 @@ AlgoMonster is an interactive AlgoMonster designed to help users understand vari
 
 ## Architecture
 
-![image](https://github.com/user-attachments/assets/a72e29df-3eb1-4dad-a2d8-7127d9c6fb9b)
-
+![image](https://github.com/user-attachments/assets/f2af2ab0-6dab-4e48-8d25-2e4ba3c718cb)
 
 ## Installation
 
